@@ -1,0 +1,311 @@
+html {
+  font-size: 70%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  margin-top: 1.5rem;
+  display: grid;
+  justify-items: center;
+}
+
+.home {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 25px;
+  background-color: rgb(112, 100, 158);
+}
+
+.navigation > a {
+  display: flex;
+  text-decoration: none;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: large;
+  color: #26bfd4;
+}
+
+.navigation > a:hover {
+  color: black;
+}
+
+.home h1 {
+  font-size: 3.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.home > p {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.home button, .home-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  background-color: #26bfd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home button:hover, .home-button:hover {
+  background-color: #207b88;
+}
+
+.create-product {
+  width: 100%;
+  max-width: 700px;
+  padding: 1.5rem;
+}
+
+.create-product form div {
+  margin-bottom: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-product label {
+  font-size: 1.4rem;
+  font-weight: 660;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.create-product input, .create-product select, .create-product textarea {
+  font-size: 1.4rem;
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 6px;
+  color: black;
+  background-color: white;
+}
+
+.create-product button[type=submit] {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: #26bfd4;
+  color: white;
+  border: none;
+}
+
+.create-product button[type=submit]:hover {
+  background-color: #207b88;
+}
+
+.catalog-wrapper > .catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 3rem;
+}
+
+.catalog-wrapper > h1 {
+  font-size: 3.4rem;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.catalog-wrapper > .catalog h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.catalog-wrapper > button {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: #26bfd4;
+  color: white;
+  border: none;
+}
+
+.catalog-wrapper > button:hover {
+  background-color: #207b88;
+}
+
+.catalog-wrapper > .catalog > button {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: #26bfd4;
+  color: white;
+  border: none;
+}
+
+.catalog-wrapper > .catalog > button:hover {
+  background-color: #207b88;
+}
+
+.product-info {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.product-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+}
+
+.product-info p {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.product-info > button {
+  padding: 0.8rem 1.6rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  border: 1px solid #26bfd4;
+  background-color: white;
+  color: #26bfd4;
+}
+
+.product-info > button:hover {
+  background-color: #207b88;
+  color: white;
+}
+
+.product-info > .disabled-button {
+  width: 90%;
+  padding: 0.8rem 1.6rem;
+  margin-right: 1rem;
+  margin-top: 0.8rem;
+  border-radius: 6px;
+  cursor: default;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  background-color: rgb(196, 185, 185);
+  color: rgb(20, 17, 17);
+}
+
+.product-info > .disabled-button:hover {
+  background-color: rgb(201, 134, 134);
+  color: rgb(20, 17, 17);
+  cursor: not-allowed;
+}
+
+.carrousel-wrapper {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1200px) {
+  .app {
+    margin-top: 1rem;
+  }
+  .home,
+  .create-product,
+  .catalog {
+    padding: 2rem 1.6rem;
+  }
+  .home h1 {
+    font-size: 2.6rem;
+  }
+  .home h2 {
+    font-size: 1.8rem;
+  }
+  .home button,
+  .home-button {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .catalog > button {
+    margin-left: 18px;
+  }
+  .catalog h1 {
+    margin-left: 18px;
+    font-size: 2.4rem;
+  }
+  .product-info {
+    padding: 1.7rem;
+  }
+  .product-info > button {
+    display: block;
+    width: 70%;
+    margin-right: 0;
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+  .product-info > .disabled-button {
+    display: block;
+    width: 70%;
+    margin-right: 0;
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 2.2rem;
+  }
+  .home > p {
+    font-size: 1.4rem;
+  }
+  .catalog-wrapper > .catalog {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .product-info h2 {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=app-e9b729eb4dc1d15d15c1.map*/
