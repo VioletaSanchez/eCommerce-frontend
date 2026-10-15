@@ -61,8 +61,8 @@ const Carrousel = ({slides}) => {
 
     return (
         <div className="carrousel-object" style={sliderStyles}>
-            <div className="carrousel-arrow" style={leftArrowStyles} onClick={goLeft}>🠜</div>
-            <div className="carrousel-arrow" style={rightArrowStyles} onClick={goRight}>🠞</div>
+            {/* <div className="carrousel-arrow" style={leftArrowStyles} onClick={goLeft}>🠜</div> */}
+            {/* <div className="carrousel-arrow" style={rightArrowStyles} onClick={goRight}>🠞</div> */}
             <div className="carrousel-item"
             onMouseEnter={() => {
                 {advanceAutoplay(false)};
