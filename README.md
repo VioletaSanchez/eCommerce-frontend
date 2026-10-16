@@ -37,7 +37,7 @@ Hidden route for product administration: https://violetasanchezecommerceplatform
 - Axios
 - Git version control
 - Backend deployed on Render
-- Frontend deployed on Netfily
+- Frontend deployed on Netlify
 
 
 ## Screenshots of the platform
@@ -47,11 +47,13 @@ Hidden route for product administration: https://violetasanchezecommerceplatform
 
 ### Render database sleeping
 The platform is currently on Render's free monthly plan. This means that the database goes to sleep if it is not used within an hour. It is possible that the first use of the website takes a couple seconds to load as Render initializes the service.
+
 ![](./static/images/database_asleep.png)
 
 
 ### Admin catalog
 The admin catalog offers the option to add, modify or delete products.
+
 ![](./static/images/admin_catalog.png)
 
 
@@ -61,6 +63,7 @@ The admin catalog offers the option to add, modify or delete products.
 
 ### Adding a new item
 Here we make sure that the datatypes make sense. For example, an administrator can only add integers as price.
+
 ![](./static/images/adding_a_new_item.png)
 
 
@@ -84,12 +87,17 @@ The logic for this component can be found in /src/pages/carrousel.js and /src/pa
 - create_product.js
 
 
-## Known Issues
+## Known issues
 LOCAL ONLY: Memory leak when moving from catalog into another page.
+
+
+## Project release
+A project release is available in both [frontend repository](https://github.com/VioletaSanchez/eCommerce-frontend/releases/tag/v1.1.0) and [backend repository](https://github.com/VioletaSanchez/eCommerce-backend/releases/tag/v1.1.0).
 
 
 ## License
 This project was develop under [MIT License](https://github.com/VioletaSanchez/eCommerce-frontend/blob/main/LICENSE).
+
 
 ## Further improvements
 - Filter to display only one type of product.
