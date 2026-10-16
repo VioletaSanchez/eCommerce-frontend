@@ -38,31 +38,31 @@ Hidden route for product administration: https://violetasanchezecommerceplatform
 - Frontend deployed on Netfily
 
 
-### Screenshots of the platform
-#### Landing page with carrousel
+## Screenshots of the platform
+### Landing page with carrousel
 ![](./static/images/langing_page_with_carrousel.png)
 
 
-#### Render database sleeping
+### Render database sleeping
 The platform is currently on Render's free monthly plan. This means that the database goes to sleep if it is not used within an hour. It is possible that the first use of the website takes a couple seconds to load as Render initializes the service
 ![](./static/images/database_asleep.png)
 
 
-#### Admin catalog
+### Admin catalog
 The admin catalog offers the option to add, modify or delete products.
 ![](./static/images/admin_catalog.png)
 
 
-#### Publicly available catalog
+### Publicly available catalog
 ![](./static/images/catalog.png)
 
 
-#### Adding a new item
+### Adding a new item
 Here we make sure that the datatypes make sense. For example, an administrator can only add integers as price.
 ![](./static/images/adding_a_new_item.png)
 
 
-#### Editing an existing item
+### Editing an existing item
 ![](./static/images/editing_product.png)
 
 
