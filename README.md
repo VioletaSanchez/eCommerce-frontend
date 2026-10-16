@@ -3,7 +3,9 @@
 This is my capstone project for the FullStack development course of Bottega university and VASS foundation.
 
 This is an eCommerce Platform with full CRUD functionality and the additional feature of a sliding image carrousel. The project is mobile responsive and adheres to best practices.
+
 Users of this platform include past, current and future clients who buy products and shop owners that manage them.
+
 The project contains features such as intuitive UI and fast communication between product database and end-user, which in turn creates a better user experience.
 
 
