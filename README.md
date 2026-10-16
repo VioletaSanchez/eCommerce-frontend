@@ -46,7 +46,7 @@ Hidden route for product administration: https://violetasanchezecommerceplatform
 
 
 ### Render database sleeping
-The platform is currently on Render's free monthly plan. This means that the database goes to sleep if it is not used within an hour. It is possible that the first use of the website takes a couple seconds to load as Render initializes the service
+The platform is currently on Render's free monthly plan. This means that the database goes to sleep if it is not used within an hour. It is possible that the first use of the website takes a couple seconds to load as Render initializes the service.
 ![](./static/images/database_asleep.png)
 
 
@@ -73,7 +73,7 @@ Every page contains a navigation bar at the top of it by which you can travese t
 
 The /catalog_admin, which contains the page where admins can add, modify or delete products, has its route hidden and needs to be accesses by entering it in the address bar.
 
-## Feature not learned in the course: carrousel
+## Additional feature not learned in the course: carrousel
 It is known that stores online use sliding image carrousels as to display their offers, therefore I found it only natural to want to create one for this project.
 
 The logic for this component can be found in /src/pages/carrousel.js and /src/pages/carrousel-container.js
@@ -85,14 +85,14 @@ The logic for this component can be found in /src/pages/carrousel.js and /src/pa
 
 
 ## Known Issues
-LOCAL ONLY: Memory leak when moving from catalog into another page 
+LOCAL ONLY: Memory leak when moving from catalog into another page.
 
 
 ## License
-This project was develop under [MIT License](https://github.com/VioletaSanchez/eCommerce-frontend/blob/main/LICENSE)
+This project was develop under [MIT License](https://github.com/VioletaSanchez/eCommerce-frontend/blob/main/LICENSE).
 
 ## Further improvements
-- Filter to display only one type of product
-- Account system - Users will be able to set their credit card information and location so a whole purchase can be made from a single click
-- Payment method implementation
-- The ability to actually buy an item
+- Filter to display only one type of product.
+- Account system - Users will be able to set their credit card information and location so a whole purchase can be made from a single click.
+- Payment method implementation.
+- The ability to actually buy an item.
