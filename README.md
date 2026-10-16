@@ -9,8 +9,11 @@ The project contains features such as intuitive UI and fast communication betwee
 
 ### Live URLs
 Front end: https://violetasanchezecommerceplatform.netlify.app/
+
 Back end: https://ecommerce-backend-wfro.onrender.com/
+
 Repository for front end: https://github.com/VioletaSanchez/eCommerce-frontend
+
 Repository for back end: https://github.com/VioletaSanchez/eCommerce-backend
 
 Hidden route for product administration: https://violetasanchezecommerceplatform.netlify.app/catalog_admin
@@ -31,32 +34,36 @@ Hidden route for product administration: https://violetasanchezecommerceplatform
 - Javascript
 - Axios
 - Git version control
-
--Backend deployed on Render
--Frontend deployed on Netfily
+- Backend deployed on Render
+- Frontend deployed on Netfily
 
 
 ### Screenshots of the platform
 #### Landing page with carrousel
-![](./images/langing_page_with_carrousel.png)
+![](./static/images/langing_page_with_carrousel.png)
+
 
 #### Render database sleeping
 The platform is currently on Render's free monthly plan. This means that the database goes to sleep if it is not used within an hour. It is possible that the first use of the website takes a couple seconds to load as Render initializes the service
-![](./images/database_asleep.png)
+![](./static/images/database_asleep.png)
+
 
 #### Admin catalog
 The admin catalog offers the option to add, modify or delete products.
-![](./images/admin_catalog.png)
+![](./static/images/admin_catalog.png)
+
 
 #### Publicly available catalog
-![](./images/catalog.png)
+![](./static/images/catalog.png)
+
 
 #### Adding a new item
 Here we make sure that the datatypes make sense. For example, an administrator can only add integers as price.
-![](./images/adding_a_new_item.png)
+![](./static/images/adding_a_new_item.png)
+
 
 #### Editing an existing item
-![](./images/editing_product.png)
+![](./static/images/editing_product.png)
 
 
 ## How to use it
@@ -76,7 +83,8 @@ The logic for this component can be found in /src/pages/carrousel.js and /src/pa
 
 
 ## Known Issues
-- LOCAL ONLY: Memory leak when moving from catalog into another page 
+LOCAL ONLY: Memory leak when moving from catalog into another page 
+
 
 ## License
 This project was develop under [MIT License](https://github.com/VioletaSanchez/eCommerce-frontend/blob/main/LICENSE)
